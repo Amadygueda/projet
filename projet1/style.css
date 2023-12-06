@@ -1,0 +1,396 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 16px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30PX;
+
+}
+.logo{
+    height: 25px;
+}
+.nav{
+    display: flex;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.ancre{
+    margin-left: 9px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+.ancre:hover{
+    color: #2F65F8;
+}
+.section1{
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+
+}
+.image1Main{
+    height: 280px;
+}
+.titre1{
+    color: #07043B;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+   margin-top: 50px;
+}
+.paragraphe1{
+    color: #07043B ;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.form1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+#mail{
+    width: 300px;
+    height: 40px;
+    align-self: center;
+    border: 1px solid #615F7E;
+    border-radius: 4px;
+    
+}
+.boutton{
+    width: 306px;
+    height: 40px;
+    align-self: center;
+    margin-top: 15px;
+    background-color:#2F65F8 ;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+#mail::placeholder{
+    padding-left: 15px;
+    opacity: 0.3;
+}
+.section2{
+    margin-top: 100px;
+    background-image: url(./images/bg-curve-mobile.svg);
+    background-position: top;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.image2Main{
+    height: 200px;
+    align-self: center;
+    margin-top: 40px;
+}
+.titre2{
+    color: #07043B;
+    font-weight: bold ;
+    margin-top: 80px;
+    font-size: 20px;
+    text-align: center;
+}
+.paralast{
+    color: #07043B;
+    font-size: 12px;
+    text-align: center;
+    margin: 25px 20px 0 20px;
+}
+.last2{
+    margin-bottom: 20px;
+}
+.ancre2{
+    color:#3DA08F; ;
+    display: inline-block;
+  text-align: center;
+    font-size: 14px;
+   
+    
+   
+
+}
+.ancre2:hover{
+    color: aquamarine;
+}
+span{
+    background-color: #3DA08F;
+    color: white ;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 5px;
+    width:16px;
+    
+}
+span:hover{
+    background-color: aquamarine;
+}
+.commentaire{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 170px;
+   
+    margin-top: 60px;
+   align-self: center;
+   background-color:white;
+   border-radius: 8px;
+}
+.profil{
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+.partie2{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.avatar{
+    border-radius: 50%;
+    height: 30px;
+}
+.titredernier{
+    color: #07043B;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+
+}
+.paragraphelast{
+    color: #07043B;
+    font-size: 8px;
+    margin-left: 5px;
+   
+}
+.section3{
+  background-color: #615F7E;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+.fin{
+    color: white;
+    font-size: 17px;
+
+}
+.fin2{
+    color: white;
+    font-size: 12px;
+}
+footer{
+    background-color: #07043B;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.vv{
+    display: flex;
+
+}
+.right{
+    align-self: center;
+}
+.fylo{
+    filter: brightness(0) invert(1);
+    width: 100px;
+    margin-left: 3px;
+}
+.imagefooters{
+    height: 15px;
+    margin: 10px;
+}
+.xoxo{
+    color: white;
+    margin-left: 1px;
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+.left{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.vv1{
+    margin-top: 15px;
+}
+.mileux p {
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Raleway', sans-serif;
+    margin-left: 35px;
+
+}
+.left2{
+    padding-top: 15px;
+}
+.right2{
+    padding-top: 15px;
+}
+.reseaufin{
+    
+    background-color: #07043B;
+}
+.reseaufin:hover{
+    color:white;
+}
+@media (min-width: 950px){
+  
+   .logo{
+    height: 70px;
+    margin-left: 50px;
+   }
+   .nav{
+    margin-right: 50px;
+   }
+   .ancre{
+    font-size: 1.5em;
+    margin-right: 10px;
+   }
+   .image1Main{
+     height: 400px;
+     width: 50%;
+   }
+   .section1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+   }
+   .en_bas{
+    width: 50%;
+    
+   }
+   .titre1{
+    font-size: 2.5rem;
+    
+   }
+   .paragraphe1{
+    font-size: 1.2rem;
+   }
+   .form1{
+    display: flex;
+    flex-direction: row;
+   }
+   #mail{
+    margin-left: 100px;
+   }
+   .boutton{
+    width: 200px;
+    margin-left: 25px;
+    margin-bottom: 16px;
+   }
+   .section2
+   {
+    background-image: url(./images/bg-curve-desktop.svg);
+    display: flex;
+    flex-direction: row-reverse;
+    height: 850px;
+    margin-top: 0;
+   }
+ .image2Main{
+    height: 400px;
+    width: 50%;
+ }
+ .titre2{
+    font-size: 2.5rem;
+
+ }
+ .paralast{
+    font-size: 1.2rem;
+ }
+ .partie2{
+    width: 50%;
+ }
+   .ancre2{
+  margin-top: 20px;
+  font-size: 1rem;
+   }
+   .commentaire{
+    width: 380px;
+    height: 300px;
+   }
+   .profil{
+    margin-top: 20px;
+    margin-left: 20px;
+   }
+   .section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fraction{
+    width: 50%;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.fin{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 25px;
+}
+.fin2{
+   font-size: 1rem;
+   text-align: justify;
+}
+.fin4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+ 
+}
+.diekhna{
+  max-width: 300px !important;
+}
+.bbt{
+    width: 150px;
+    margin-right: 75px;
+    font-size: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mileux{
+    display: flex;
+    justify-content:space-between;
+}
+.left{
+    margin-top: 70px;
+  
+}
+.mileux{
+    margin-top: 80px;
+}
+.right{
+    margin-bottom: 290px;
+    height: 100px;
+}
+.left2{
+    margin-right: 120px;
+}
+
+}
